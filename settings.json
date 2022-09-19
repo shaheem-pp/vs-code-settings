@@ -71,5 +71,9 @@
 	"workbench.editor.pinnedTabSizing": "compact",
 	"workbench.editor.tabSizing": "fit",
 	"workbench.editor.wrapTabs": true,
-	"workbench.iconTheme": "material-icon-theme"
+	"workbench.iconTheme": "material-icon-theme",
+	"[jsonc]": {
+		"editor.defaultFormatter": "vscode.json-language-features"
+	},
+	"workbench.productIconTheme": "material-product-icons"
 }
