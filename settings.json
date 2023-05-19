@@ -6,7 +6,7 @@
 	"diffEditor.wordWrap": "on",
 	"editor.accessibilitySupport": "off",
 	"editor.cursorBlinking": "smooth",
-	"editor.cursorSmoothCaretAnimation": true,
+	"editor.cursorSmoothCaretAnimation": "on",
 	"editor.cursorStyle": "line",
 	"editor.detectIndentation": false,
 	"editor.fontFamily": "'JetBrains Mono', monospace",
@@ -23,10 +23,7 @@
 	"editor.wordWrap": "on",
 	"files.autoSave": "afterDelay",
 	"files.exclude": {
-		"**/.project": true,
-		"**/.settings": true,
-		"**/.classpath": true,
-		"**/.factorypath": true
+		"**/.trunk/*out": true
 	},
 	"liveServer.settings.donotVerifyTags": true,
 	"prettier.tabWidth": 2,
@@ -43,30 +40,28 @@
 	"terminal.integrated.tabs.enabled": true,
 	"window.title": "${dirty}${appName}${separator}${activeEditorLong}",
 	"workbench.colorCustomizations": {
-		"terminal.ansiWhite": "#ABB2BF",
-		"terminal.ansiBrightCyan": "#56B6C2",
-		"terminalCursor.background": "#ABB2BF",
-		"terminal.ansiYellow": "#E5C07B",
-		"terminal.ansiCyan": "#56B6C2",
-		"terminal.ansiBrightYellow": "#E5C07B",
-		"terminal.ansiBrightGreen": "#98C379",
-		"terminalCursor.foreground": "#ABB2BF",
-		"terminal.background": "#202428",
-		"terminal.ansiBrightBlack": "#545862",
-		"terminal.ansiBrightMagenta": "#C678DD",
-		"terminal.ansiMagenta": "#C678DD",
-		"[Material Theme Darker High Contrast]": {},
-		"terminal.ansiBrightRed": "#E06C75",
-		"terminal.ansiRed": "#E06C75",
+		// Terminal Colors
 		"terminal.foreground": "#ABB2BF",
-		"terminal.ansiGreen": "#98C379",
-		"terminal.ansiBlue": "#61AFEF",
+		"terminal.background": "#0E1116",
+		"terminal.ansiBlack": "#1D1F21",
+		"terminal.ansiRed": "#E45649",
+		"terminal.ansiGreen": "#50A14F",
+		"terminal.ansiYellow": "#C18401",
+		"terminal.ansiBlue": "#4078F2",
+		"terminal.ansiMagenta": "#A626A4",
+		"terminal.ansiCyan": "#0184BC",
+		"terminal.ansiWhite": "#C8C6C2",
+		"terminal.ansiBrightBlack": "#655370",
+		"terminal.ansiBrightRed": "#E06C75",
+		"terminal.ansiBrightGreen": "#98C379",
+		"terminal.ansiBrightYellow": "#D19A66",
 		"terminal.ansiBrightBlue": "#61AFEF",
-		"terminal.ansiBrightWhite": "#C8CCD4",
-		"terminal.ansiBlack": "#1d1d20"
+		"terminal.ansiBrightMagenta": "#C678DD",
+		"terminal.ansiBrightCyan": "#56B6C2",
+		"terminal.ansiBrightWhite": "#FFFFFF",
+		"terminalCursor.foreground": "#ABB2BF",
+		"terminalCursor.background": "#ABB2BF"
 	},
-	"workbench.colorTheme": "GitHub Dark",
-	"workbench.editor.enablePreview": false,
 	"workbench.editor.openPositioning": "right",
 	"workbench.editor.pinnedTabSizing": "compact",
 	"workbench.editor.tabSizing": "fit",
@@ -75,5 +70,32 @@
 	"[jsonc]": {
 		"editor.defaultFormatter": "vscode.json-language-features"
 	},
-	"workbench.productIconTheme": "material-product-icons"
+	"workbench.productIconTheme": "material-product-icons",
+	"[dart]": {
+		"editor.formatOnSave": true,
+		"editor.formatOnType": true,
+		"editor.rulers": [
+			80
+		],
+		"editor.selectionHighlight": false,
+		"editor.suggest.snippetsPreventQuickSuggestions": false,
+		"editor.suggestSelection": "first",
+		"editor.tabCompletion": "onlySnippets",
+		"editor.wordBasedSuggestions": false
+	},
+	"dart.flutterSdkPath": "/Users/shaheempp/Developer/dont_touch/flutter",
+	"trunk.trunkGrayOutNonBlockingIssues": false,
+	"cmake.configureOnOpen": true,
+	"files.watcherExclude": {
+		"**/.trunk/*out": true
+	},
+	"terminal.integrated.shellIntegration.enabled": false,
+	"[python]": {
+		"editor.defaultFormatter": "ms-python.python",
+		"editor.formatOnType": true
+	},
+	"workbench.tree.indent": 14,
+	"terminal.integrated.defaultProfile.osx": "fish",
+	"terminal.integrated.enableBell": true,
+	"workbench.colorTheme": "GitHub Dark Default"
 }
