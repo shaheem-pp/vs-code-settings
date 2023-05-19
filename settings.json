@@ -94,8 +94,9 @@
 		"editor.defaultFormatter": "ms-python.python",
 		"editor.formatOnType": true
 	},
-	"workbench.tree.indent": 14,
+	"workbench.tree.indent": 16,
 	"terminal.integrated.defaultProfile.osx": "fish",
 	"terminal.integrated.enableBell": true,
-	"workbench.colorTheme": "GitHub Dark Default"
+	"workbench.colorTheme": "GitHub Dark Default",
+	"window.confirmBeforeClose": "keyboardOnly"
 }
