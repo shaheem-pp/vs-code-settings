@@ -15,6 +15,9 @@
         "editor.tabCompletion": "onlySnippets",
         "editor.wordBasedSuggestions": false
     },
+    "[html]": {
+        "editor.defaultFormatter": "HookyQR.beautify"
+    },
     "[java]": {
         "editor.defaultFormatter": "redhat.java",
         "editor.formatOnSave": true
@@ -25,17 +28,11 @@
     "[python]": {
         "editor.defaultFormatter": "ms-python.python",
         "editor.formatOnSave": true,
-        "python.formatting.blackArgs": [
-            "--line-length",
-            "130"
-        ],
-        "python.formatting.provider": "black",
-        "python.linting.enabled": true,
-        "python.linting.flake8Args": [
-            "--ignore=E501"
-        ],
-        "python.linting.flake8Enabled": true,
-        "python.linting.pylintEnabled": false
+        "editor.insertSpaces": true,
+        "editor.tabSize": 4
+    },
+    "[twig]": {
+        "editor.autoIndent": "advanced"
     },
     "bracket-pair-colorizer-2.depreciation-notice": false,
     "cmake.configureOnOpen": true,
@@ -64,6 +61,15 @@
     "editor.suggestSelection": "first",
     "editor.tabSize": 4,
     "editor.wordWrap": "on",
+    "emmet.includeLanguages": {
+        "twig": "html"
+    },
+    "files.associations": {
+        "/Users/shaheempp/Developer/Projects/**/*.html": "twig",
+        "/Users/shaheempp/Developer/Python/**/*.html": "twig",
+        "/Users/shaheempp/Developer/Web/**/*.html": "html",
+        "/Users/shaheempp/Developer/Work/**/*.html": "twig"
+    },
     "files.autoSave": "afterDelay",
     "files.exclude": {
         "**/.trunk/*out": true
@@ -72,9 +78,6 @@
         "**/.trunk/*out": true
     },
     "liveServer.settings.donotVerifyTags": true,
-    "prettier.tabWidth": 2,
-    "prettier.useTabs": true,
-    "python.formatting.provider": "black",
     "terminal.integrated.cursorBlinking": true,
     "terminal.integrated.cursorStyle": "line",
     "terminal.integrated.defaultProfile.osx": "fish",
@@ -117,7 +120,7 @@
     "workbench.editor.pinnedTabSizing": "compact",
     "workbench.editor.tabSizing": "fit",
     "workbench.editor.wrapTabs": true,
-    "workbench.iconTheme": "material-icon-theme",
-    "workbench.productIconTheme": "material-product-icons",
+    "workbench.iconTheme": "a-file-icon-vscode",
+    "workbench.productIconTheme": "bootstrap-product-icons",
     "workbench.tree.indent": 16
 }
