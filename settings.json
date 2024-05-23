@@ -1,126 +1,120 @@
 {
-    "[c]": {
-        "editor.defaultFormatter": "ms-vscode.cpptools",
-        "editor.formatOnSave": true
-    },
-    "[dart]": {
-        "editor.formatOnSave": true,
-        "editor.formatOnType": true,
-        "editor.rulers": [
-            80
-        ],
-        "editor.selectionHighlight": false,
-        "editor.suggest.snippetsPreventQuickSuggestions": false,
-        "editor.suggestSelection": "first",
-        "editor.tabCompletion": "onlySnippets",
-        "editor.wordBasedSuggestions": false
-    },
-    "[html]": {
-        "editor.defaultFormatter": "HookyQR.beautify"
-    },
-    "[java]": {
-        "editor.defaultFormatter": "redhat.java",
-        "editor.formatOnSave": true
-    },
-    "[jsonc]": {
-        "editor.defaultFormatter": "vscode.json-language-features"
-    },
-    "[python]": {
-        "editor.defaultFormatter": "ms-python.python",
-        "editor.formatOnSave": true,
-        "editor.insertSpaces": true,
-        "editor.tabSize": 4
-    },
-    "[twig]": {
-        "editor.autoIndent": "advanced"
-    },
-    "bracket-pair-colorizer-2.depreciation-notice": false,
-    "cmake.configureOnOpen": true,
-    "code-runner.runInTerminal": true,
-    "dart.flutterSdkPath": "/Users/shaheempp/Developer/dont_touch/flutter",
-    "debug.console.wordWrap": true,
-    "diffEditor.ignoreTrimWhitespace": false,
-    "diffEditor.wordWrap": "on",
-    "editor.accessibilitySupport": "off",
-    "editor.codeActionsOnSave": {
-        "source.organizeImports": true
-    },
-    "editor.cursorBlinking": "smooth",
-    "editor.cursorSmoothCaretAnimation": "on",
-    "editor.cursorStyle": "line",
-    "editor.detectIndentation": false,
-    "editor.fontFamily": "'JetBrains Mono', monospace",
-    "editor.fontLigatures": true,
-    "editor.formatOnPaste": true,
-    "editor.formatOnSave": true,
-    "editor.formatOnSaveMode": "file",
-    "editor.formatOnType": true,
-    "editor.inlineSuggest.enabled": true,
-    "editor.insertSpaces": false,
-    "editor.linkedEditing": true,
-    "editor.suggestSelection": "first",
-    "editor.tabSize": 4,
-    "editor.wordWrap": "on",
-    "emmet.includeLanguages": {
-        "twig": "html"
-    },
-    "files.associations": {
-        "/Users/shaheempp/Developer/Projects/**/*.html": "twig",
-        "/Users/shaheempp/Developer/Python/**/*.html": "twig",
-        "/Users/shaheempp/Developer/Web/**/*.html": "html",
-        "/Users/shaheempp/Developer/Work/**/*.html": "twig"
-    },
-    "files.autoSave": "afterDelay",
-    "files.exclude": {
-        "**/.trunk/*out": true
-    },
-    "files.watcherExclude": {
-        "**/.trunk/*out": true
-    },
-    "liveServer.settings.donotVerifyTags": true,
-    "terminal.integrated.cursorBlinking": true,
-    "terminal.integrated.cursorStyle": "line",
-    "terminal.integrated.defaultProfile.osx": "fish",
-    "terminal.integrated.defaultProfile.windows": "Command Prompt",
-    "terminal.integrated.enableBell": true,
-    "terminal.integrated.env.osx": {
-        "FIG_NEW_SESSION": "1"
-    },
-    "terminal.integrated.fontFamily": "MesloLGS NF",
-    "terminal.integrated.sendKeybindingsToShell": true,
-    "terminal.integrated.shellIntegration.enabled": false,
-    "terminal.integrated.tabs.enabled": true,
-    "trunk.trunkGrayOutNonBlockingIssues": false,
-    "window.confirmBeforeClose": "keyboardOnly",
-    "window.title": "${dirty}${appName}${separator}${activeEditorLong}",
-    "workbench.colorCustomizations": {
-        "terminal.ansiBlack": "#1D1F21",
-        "terminal.ansiBlue": "#4078F2",
-        "terminal.ansiBrightBlack": "#655370",
-        "terminal.ansiBrightBlue": "#61AFEF",
-        "terminal.ansiBrightCyan": "#56B6C2",
-        "terminal.ansiBrightGreen": "#98C379",
-        "terminal.ansiBrightMagenta": "#C678DD",
-        "terminal.ansiBrightRed": "#E06C75",
-        "terminal.ansiBrightWhite": "#FFFFFF",
-        "terminal.ansiBrightYellow": "#D19A66",
-        "terminal.ansiCyan": "#0184BC",
-        "terminal.ansiGreen": "#50A14F",
-        "terminal.ansiMagenta": "#A626A4",
-        "terminal.ansiRed": "#E45649",
-        "terminal.ansiWhite": "#C8C6C2",
-        "terminal.ansiYellow": "#C18401",
-        "terminal.background": "#0E1116",
-        "terminal.foreground": "#ABB2BF",
-        "terminalCursor.background": "#ABB2BF",
-        "terminalCursor.foreground": "#ABB2BF"
-    },
-    "workbench.colorTheme": "GitHub Dark Default",
-    "workbench.editor.openPositioning": "right",
-    "workbench.editor.pinnedTabSizing": "compact",
-    "workbench.editor.tabSizing": "fit",
-    "workbench.editor.wrapTabs": true,
-    "workbench.iconTheme": "a-file-icon-vscode",
-    "workbench.productIconTheme": "bootstrap-product-icons",
-    "workbench.tree.indent": 16
+	"[c]": {
+		"editor.defaultFormatter": "ms-vscode.cpptools",
+		"editor.formatOnSave": true
+	},
+	"[dart]": {
+		"editor.formatOnSave": true,
+		"editor.formatOnType": true,
+		"editor.rulers": [
+			80
+		],
+		"editor.selectionHighlight": false,
+		"editor.suggest.snippetsPreventQuickSuggestions": false,
+		"editor.suggestSelection": "first",
+		"editor.tabCompletion": "onlySnippets",
+		"editor.wordBasedSuggestions": "off"
+	},
+	"[html]": {
+		"editor.defaultFormatter": "HookyQR.beautify"
+	},
+	"[jsonc]": {
+		"editor.defaultFormatter": "vscode.json-language-features"
+	},
+	"[twig]": {
+		"editor.autoIndent": "advanced"
+	},
+	"bracket-pair-colorizer-2.depreciation-notice": false,
+	"cmake.configureOnOpen": true,
+	"code-runner.runInTerminal": true,
+	"dart.flutterSdkPath": "/Users/shaheempp/Developer/dont_touch/flutter",
+	"debug.console.wordWrap": true,
+	"diffEditor.ignoreTrimWhitespace": false,
+	"diffEditor.wordWrap": "on",
+	"editor.accessibilitySupport": "off",
+	"editor.codeActionsOnSave": {
+		"source.organizeImports": "explicit"
+	},
+	"editor.cursorBlinking": "smooth",
+	"editor.cursorSmoothCaretAnimation": "on",
+	"editor.cursorStyle": "line",
+	"editor.detectIndentation": false,
+	"editor.fontFamily": "'JetBrains Mono', monospace",
+	"editor.fontLigatures": true,
+	"editor.formatOnPaste": true,
+	"editor.formatOnSave": true,
+	"editor.formatOnSaveMode": "file",
+	"editor.formatOnType": true,
+	"editor.inlineSuggest.enabled": true,
+	"editor.insertSpaces": false,
+	"editor.linkedEditing": true,
+	"editor.suggestSelection": "first",
+	"editor.tabSize": 4,
+	"editor.wordWrap": "on",
+	"emmet.includeLanguages": {
+		"twig": "html"
+	},
+	"files.associations": {
+		"/Users/shaheempp/Developer/Projects/**/*.html": "twig",
+		"/Users/shaheempp/Developer/Python/**/*.html": "twig",
+		"/Users/shaheempp/Developer/Web/**/*.html": "html",
+		"/Users/shaheempp/Developer/Work/**/*.html": "twig"
+	},
+	"files.autoSave": "afterDelay",
+	"files.exclude": {
+		"**/.trunk/*out": true
+	},
+	"files.watcherExclude": {
+		"**/.trunk/*out": true
+	},
+	"liveServer.settings.donotVerifyTags": true,
+	"terminal.integrated.cursorBlinking": true,
+	"terminal.integrated.cursorStyle": "line",
+	"terminal.integrated.defaultProfile.osx": "fish",
+	"terminal.integrated.defaultProfile.windows": "Command Prompt",
+	"terminal.integrated.env.osx": {
+		"FIG_NEW_SESSION": "1"
+	},
+	"terminal.integrated.fontFamily": "MesloLGS NF",
+	"terminal.integrated.sendKeybindingsToShell": true,
+	"terminal.integrated.shellIntegration.enabled": false,
+	"terminal.integrated.tabs.enabled": true,
+	"trunk.trunkGrayOutNonBlockingIssues": false,
+	"window.confirmBeforeClose": "keyboardOnly",
+	"window.title": "${dirty}${appName}${separator}${activeEditorLong}",
+	"workbench.colorCustomizations": {
+		"terminal.ansiBlack": "#1D1F21",
+		"terminal.ansiBlue": "#4078F2",
+		"terminal.ansiBrightBlack": "#655370",
+		"terminal.ansiBrightBlue": "#61AFEF",
+		"terminal.ansiBrightCyan": "#56B6C2",
+		"terminal.ansiBrightGreen": "#98C379",
+		"terminal.ansiBrightMagenta": "#C678DD",
+		"terminal.ansiBrightRed": "#E06C75",
+		"terminal.ansiBrightWhite": "#FFFFFF",
+		"terminal.ansiBrightYellow": "#D19A66",
+		"terminal.ansiCyan": "#0184BC",
+		"terminal.ansiGreen": "#50A14F",
+		"terminal.ansiMagenta": "#A626A4",
+		"terminal.ansiRed": "#E45649",
+		"terminal.ansiWhite": "#C8C6C2",
+		"terminal.ansiYellow": "#C18401",
+		"terminal.background": "#0E1116",
+		"terminal.foreground": "#ABB2BF",
+		"terminalCursor.background": "#ABB2BF",
+		"terminalCursor.foreground": "#ABB2BF"
+	},
+	"workbench.colorTheme": "GitHub Dark Default",
+	"workbench.editor.openPositioning": "right",
+	"workbench.editor.pinnedTabSizing": "compact",
+	"workbench.editor.tabSizing": "fit",
+	"workbench.editor.wrapTabs": true,
+	"workbench.iconTheme": "a-file-icon-vscode",
+	"workbench.productIconTheme": "bootstrap-product-icons",
+	"workbench.tree.indent": 16,
+	"accessibility.signals.terminalBell": {
+		"sound": "on"
+	},
+	"terminal.integrated.enableVisualBell": true,
+	"workbench.sideBar.location": "right"
 }
