@@ -1,120 +1,166 @@
 {
-	"[c]": {
-		"editor.defaultFormatter": "ms-vscode.cpptools",
-		"editor.formatOnSave": true
-	},
-	"[dart]": {
-		"editor.formatOnSave": true,
-		"editor.formatOnType": true,
-		"editor.rulers": [
-			80
-		],
-		"editor.selectionHighlight": false,
-		"editor.suggest.snippetsPreventQuickSuggestions": false,
-		"editor.suggestSelection": "first",
-		"editor.tabCompletion": "onlySnippets",
-		"editor.wordBasedSuggestions": "off"
-	},
-	"[html]": {
-		"editor.defaultFormatter": "HookyQR.beautify"
-	},
-	"[jsonc]": {
-		"editor.defaultFormatter": "vscode.json-language-features"
-	},
-	"[twig]": {
-		"editor.autoIndent": "advanced"
-	},
-	"bracket-pair-colorizer-2.depreciation-notice": false,
-	"cmake.configureOnOpen": true,
-	"code-runner.runInTerminal": true,
-	"dart.flutterSdkPath": "/Users/shaheempp/Developer/dont_touch/flutter",
-	"debug.console.wordWrap": true,
-	"diffEditor.ignoreTrimWhitespace": false,
-	"diffEditor.wordWrap": "on",
-	"editor.accessibilitySupport": "off",
-	"editor.codeActionsOnSave": {
-		"source.organizeImports": "explicit"
-	},
-	"editor.cursorBlinking": "smooth",
-	"editor.cursorSmoothCaretAnimation": "on",
-	"editor.cursorStyle": "line",
-	"editor.detectIndentation": false,
-	"editor.fontFamily": "'JetBrains Mono', monospace",
-	"editor.fontLigatures": true,
-	"editor.formatOnPaste": true,
-	"editor.formatOnSave": true,
-	"editor.formatOnSaveMode": "file",
-	"editor.formatOnType": true,
-	"editor.inlineSuggest.enabled": true,
-	"editor.insertSpaces": false,
-	"editor.linkedEditing": true,
-	"editor.suggestSelection": "first",
-	"editor.tabSize": 4,
-	"editor.wordWrap": "on",
-	"emmet.includeLanguages": {
-		"twig": "html"
-	},
-	"files.associations": {
-		"/Users/shaheempp/Developer/Projects/**/*.html": "twig",
-		"/Users/shaheempp/Developer/Python/**/*.html": "twig",
-		"/Users/shaheempp/Developer/Web/**/*.html": "html",
-		"/Users/shaheempp/Developer/Work/**/*.html": "twig"
-	},
-	"files.autoSave": "afterDelay",
-	"files.exclude": {
-		"**/.trunk/*out": true
-	},
-	"files.watcherExclude": {
-		"**/.trunk/*out": true
-	},
-	"liveServer.settings.donotVerifyTags": true,
-	"terminal.integrated.cursorBlinking": true,
-	"terminal.integrated.cursorStyle": "line",
-	"terminal.integrated.defaultProfile.osx": "fish",
-	"terminal.integrated.defaultProfile.windows": "Command Prompt",
-	"terminal.integrated.env.osx": {
-		"FIG_NEW_SESSION": "1"
-	},
-	"terminal.integrated.fontFamily": "MesloLGS NF",
-	"terminal.integrated.sendKeybindingsToShell": true,
-	"terminal.integrated.shellIntegration.enabled": false,
-	"terminal.integrated.tabs.enabled": true,
-	"trunk.trunkGrayOutNonBlockingIssues": false,
-	"window.confirmBeforeClose": "keyboardOnly",
-	"window.title": "${dirty}${appName}${separator}${activeEditorLong}",
-	"workbench.colorCustomizations": {
-		"terminal.ansiBlack": "#1D1F21",
-		"terminal.ansiBlue": "#4078F2",
-		"terminal.ansiBrightBlack": "#655370",
-		"terminal.ansiBrightBlue": "#61AFEF",
-		"terminal.ansiBrightCyan": "#56B6C2",
-		"terminal.ansiBrightGreen": "#98C379",
-		"terminal.ansiBrightMagenta": "#C678DD",
-		"terminal.ansiBrightRed": "#E06C75",
-		"terminal.ansiBrightWhite": "#FFFFFF",
-		"terminal.ansiBrightYellow": "#D19A66",
-		"terminal.ansiCyan": "#0184BC",
-		"terminal.ansiGreen": "#50A14F",
-		"terminal.ansiMagenta": "#A626A4",
-		"terminal.ansiRed": "#E45649",
-		"terminal.ansiWhite": "#C8C6C2",
-		"terminal.ansiYellow": "#C18401",
-		"terminal.background": "#0E1116",
-		"terminal.foreground": "#ABB2BF",
-		"terminalCursor.background": "#ABB2BF",
-		"terminalCursor.foreground": "#ABB2BF"
-	},
-	"workbench.colorTheme": "GitHub Dark Default",
-	"workbench.editor.openPositioning": "right",
-	"workbench.editor.pinnedTabSizing": "compact",
-	"workbench.editor.tabSizing": "fit",
-	"workbench.editor.wrapTabs": true,
-	"workbench.iconTheme": "a-file-icon-vscode",
-	"workbench.productIconTheme": "bootstrap-product-icons",
-	"workbench.tree.indent": 16,
-	"accessibility.signals.terminalBell": {
-		"sound": "on"
-	},
-	"terminal.integrated.enableVisualBell": true,
-	"workbench.sideBar.location": "right"
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "accessibility.signals.terminalBell": {
+    "sound": "on"
+  },
+  "editor.accessibilitySupport": "off",
+  "editor.codeActionsOnSave": {
+    "source.fixAll": "explicit",
+    "source.fixAll.eslint": "explicit",
+    "source.organizeImports": "explicit"
+  },
+  "editor.cursorBlinking": "smooth",
+  "editor.cursorSmoothCaretAnimation": "on",
+  "editor.cursorStyle": "line",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.detectIndentation": false,
+  "editor.fontFamily": "JetBrainsMono Nerd Font",
+  "editor.fontLigatures": true,
+  "editor.fontSize": 13,
+  "editor.formatOnPaste": true,
+  "editor.formatOnSave": true,
+  "editor.formatOnSaveMode": "file",
+  "editor.formatOnType": true,
+  "editor.inlineSuggest.enabled": true,
+  "editor.insertSpaces": true,
+  "editor.linkedEditing": true,
+  "editor.suggestSelection": "first",
+  "editor.tabSize": 4,
+  "editor.wordWrap": "on",
+  "files.autoSave": "afterDelay",
+  "terminal.integrated.cursorBlinking": true,
+  "terminal.integrated.cursorStyle": "line",
+  "terminal.integrated.defaultProfile.osx": "zsh",
+  "terminal.integrated.enableVisualBell": true,
+  "terminal.integrated.fontFamily": "JetBrainsMono Nerd Font",
+  "terminal.integrated.fontSize": 13,
+  "terminal.integrated.lineHeight": 1.2,
+  "terminal.integrated.profiles.osx": {
+    "zsh": {
+      "path": "/bin/zsh"
+    }
+  },
+  "window.confirmBeforeClose": "keyboardOnly",
+  "window.title": "${dirty}${activeEditorShort}${separator}${rootName}${separator}${appName}",
+  "workbench.colorCustomizations": {
+    "terminal.ansiBlack": "#1D1F21",
+    "terminal.ansiBlue": "#4078F2",
+    "terminal.ansiBrightBlack": "#655370",
+    "terminal.ansiBrightBlue": "#61AFEF",
+    "terminal.ansiBrightCyan": "#56B6C2",
+    "terminal.ansiBrightGreen": "#98C379",
+    "terminal.ansiBrightMagenta": "#C678DD",
+    "terminal.ansiBrightRed": "#E06C75",
+    "terminal.ansiBrightWhite": "#FFFFFF",
+    "terminal.ansiBrightYellow": "#D19A66",
+    "terminal.ansiCyan": "#0184BC",
+    "terminal.ansiGreen": "#50A14F",
+    "terminal.ansiMagenta": "#A626A4",
+    "terminal.ansiRed": "#E45649",
+    "terminal.ansiWhite": "#C8C6C2",
+    "terminal.ansiYellow": "#C18401",
+    "terminal.background": "#0E1116",
+    "terminal.foreground": "#ABB2BF",
+    "terminalCursor.background": "#ABB2BF",
+    "terminalCursor.foreground": "#ABB2BF"
+  },
+  "workbench.colorTheme": "GitHub Dark Default",
+  "workbench.editor.openPositioning": "right",
+  "workbench.editor.pinnedTabSizing": "compact",
+  "workbench.editor.tabSizing": "fit",
+  "workbench.editor.wrapTabs": true,
+  "workbench.iconTheme": "a-file-icon-vscode",
+  "workbench.sideBar.location": "left",
+  "workbench.tree.indent": 16,
+  "github.copilot.nextEditSuggestions.enabled": true,
+  "redhat.telemetry.enabled": false,
+  "mssql.connectionGroups": [
+    {
+      "name": "ROOT",
+      "id": "12453129-C38A-4B61-B156-817CA5A96C38"
+    }
+  ],
+  "pgsql.serverGroups": [
+    {
+      "name": "Servers",
+      "id": "B61380D5-218E-4920-BEB3-A4B08F3240AD",
+      "isDefault": true
+    }
+  ],
+  "[csharp]": {
+    "editor.defaultFormatter": "ms-dotnettools.csharp",
+    "editor.formatOnSave": true,
+    "editor.tabSize": 4,
+    "editor.insertSpaces": true
+  },
+  "[razor]": {
+    "editor.defaultFormatter": "ms-dotnettools.csharp",
+    "editor.formatOnSave": true,
+    "editor.tabSize": 4,
+    "editor.insertSpaces": true
+  },
+  "[aspnetcorerazor]": {
+    "editor.defaultFormatter": "ms-dotnettools.csharp",
+    "editor.formatOnSave": true,
+    "editor.tabSize": 4,
+    "editor.insertSpaces": true
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true,
+    "editor.tabSize": 2,
+    "editor.insertSpaces": true
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true,
+    "editor.tabSize": 2,
+    "editor.insertSpaces": true
+  },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true,
+    "editor.tabSize": 2,
+    "editor.insertSpaces": true
+  },
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true,
+    "editor.tabSize": 2,
+    "editor.insertSpaces": true
+  },
+  "[scss]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true,
+    "editor.tabSize": 2,
+    "editor.insertSpaces": true
+  },
+  "eslint.enable": true,
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact"
+  ],
+  "eslint.format.enable": true,
+  "eslint.codeActionsOnSave.mode": "problems",
+  "stylelint.enable": true,
+  "stylelint.validate": ["css", "scss", "sass"],
+  "dotnet.completion.showCompletionItemsFromUnimportedNamespaces": true,
+  "dotnet.server.useOmnisharp": false,
+  "csharp.format.enable": true,
+  "csharp.semanticHighlighting.enabled": true,
+  "emmet.includeLanguages": {
+    "razor": "html",
+    "aspnetcorerazor": "html"
+  },
+  "emmet.triggerExpansionOnTab": true
 }
