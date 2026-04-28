@@ -1,47 +1,79 @@
 {
   "[csharp]": {
     "editor.defaultFormatter": "ms-dotnettools.csharp",
-    "editor.semanticHighlighting.enabled": true
+    "editor.semanticHighlighting.enabled": true,
   },
   "[css]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
   },
   "[html]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+  },
+  "[django-html]": {
+    "editor.defaultFormatter": "monosans.djlint",
   },
   "[javascript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode",
-    "editor.suggest.insertMode": "replace"
+    "editor.suggest.insertMode": "replace",
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": "explicit",
+      "source.organizeImports": "explicit",
+    },
   },
   "[javascriptreact]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[json]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[jsonc]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[razor]": {
-    "editor.defaultFormatter": "ms-dotnettools.csharp"
-  },
-  "[scss]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": "explicit",
+      "source.organizeImports": "explicit",
+    },
   },
   "[typescript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode",
-    "editor.suggest.insertMode": "replace"
+    "editor.suggest.insertMode": "replace",
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": "explicit",
+      "source.organizeImports": "explicit",
+    },
   },
   "[typescriptreact]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": "explicit",
+      "source.organizeImports": "explicit",
+    },
   },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+  },
+  "[scss]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+  },
+  "[razor]": {
+    "editor.defaultFormatter": "ms-dotnettools.csharp",
+  },
+  "[python]": {
+    "editor.defaultFormatter": "charliermarsh.ruff",
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+      "source.fixAll.ruff": "explicit",
+      "source.organizeImports.ruff": "explicit",
+    },
+  },
+
+  "emmet.includeLanguages": {
+    "django-html": "html",
+  },
+
   "breadcrumbs.enabled": true,
   "editor.acceptSuggestionOnCommitCharacter": false,
   "editor.acceptSuggestionOnEnter": "on",
   "editor.bracketPairColorization.enabled": true,
   "editor.codeActionsOnSave": {
     "source.fixAll": "explicit",
-    "source.organizeImports": "explicit"
+    "source.organizeImports": "explicit",
   },
   "editor.cursorBlinking": "smooth",
   "editor.cursorSmoothCaretAnimation": "on",
@@ -59,13 +91,12 @@
   "editor.guides.indentation": true,
   "editor.letterSpacing": 0.2,
   "editor.lineHeight": 1.6,
-  "editor.minimap.enabled": true,
   "editor.minimap.maxColumn": 120,
   "editor.minimap.renderCharacters": false,
   "editor.quickSuggestions": {
     "other": "on",
     "comments": "off",
-    "strings": "on"
+    "strings": "on",
   },
   "editor.renderLineHighlight": "gutter",
   "editor.renderWhitespace": "boundary",
@@ -75,98 +106,45 @@
   "editor.tabCompletion": "on",
   "editor.tabSize": 4,
   "editor.wordBasedSuggestions": "matchingDocuments",
-  "emmet.includeLanguages": {
-    "javascript": "javascriptreact",
-    "typescript": "typescriptreact"
-  },
-  "emmet.triggerExpansionOnTab": true,
-  "eslint.codeActionsOnSave.mode": "all",
-  "eslint.format.enable": true,
-  "explorer.compactFolders": false,
-  "explorer.confirmDelete": false,
-  "explorer.confirmDragAndDrop": false,
-  "explorer.fileNesting.enabled": true,
-  "explorer.fileNesting.patterns": {
-    "*.ts": "${capture}.js",
-    "*.js": "${capture}.js.map, ${capture}.min.js, ${capture}.d.ts",
-    "*.jsx": "${capture}.js",
-    "*.tsx": "${capture}.ts",
-    "tsconfig.json": "tsconfig.*.json",
-    "package.json": "package-lock.json, yarn.lock, pnpm-lock.yaml",
-    ".gitignore": ".gitattributes, .gitmodules, .gitmessage, .mailmap, .git-blame*",
-    "readme*": "authors, backers*, changelog*, citation*, code_of_conduct*, codeowners, contributing*, contributors, copying, credits, governance.md, history.md, license*, maintainers, readme*, security.md, sponsors*"
-  },
-  "extensions.experimental.affinity": {
-    "vscodevim.vim": 1
-  },
+
   "files.autoSave": "afterDelay",
   "files.autoSaveDelay": 3000,
   "files.autoSaveWhenNoErrors": true,
-  "files.exclude": {
-    "**/.git": true,
-    "**/.svn": true,
-    "**/.hg": true,
-    "**/CVS": true,
-    "**/.DS_Store": true,
-    "**/node_modules": true,
-    "**/bower_components": true,
-    "**/bin": true,
-    "**/obj": true
-  },
-  "files.watcherExclude": {
-    "**/.git/objects/**": true,
-    "**/.git/subtree-cache/**": true,
-    "**/node_modules/*/**": true,
-    "**/bin/**": true,
-    "**/obj/**": true
-  },
-  "git.autofetch": true,
-  "git.confirmSync": false,
-  "git.enableSmartCommit": true,
-  "git.openRepositoryInParentFolders": "always",
-  "gitlens.codeLens.enabled": false,
-  "gitlens.currentLine.enabled": false,
-  "gitlens.hovers.currentLine.over": "line",
-  "javascript.suggest.autoImports": true,
-  "javascript.updateImportsOnFileMove.enabled": "always",
-  "outline.showVariables": false,
-  "prettier.arrowParens": "avoid",
-  "prettier.printWidth": 100,
-  "prettier.semi": true,
-  "prettier.singleQuote": true,
-  "prettier.tabWidth": 2,
-  "prettier.trailingComma": "es5",
-  "prettier.useTabs": false,
-  "problems.showCurrentInStatus": true,
-  "redhat.telemetry.enabled": false,
+
   "search.exclude": {
     "**/node_modules": true,
     "**/bower_components": true,
     "**/*.code-search": true,
     "**/bin": true,
-    "**/obj": true
+    "**/obj": true,
   },
+
   "security.workspace.trust.untrustedFiles": "open",
+
   "terminal.integrated.cursorBlinking": true,
   "terminal.integrated.cursorStyle": "line",
   "terminal.integrated.fontFamily": "JetBrainsMono Nerd Font",
   "terminal.integrated.fontSize": 13,
   "terminal.integrated.lineHeight": 1.2,
   "terminal.integrated.scrollback": 10000,
-  "terminal.integrated.shell.osx": "/bin/zsh",
+  "terminal.integrated.defaultProfile.osx": "zsh",
+
   "typescript.preferences.includePackageJsonAutoImports": "auto",
   "typescript.suggest.autoImports": true,
   "typescript.updateImportsOnFileMove.enabled": "always",
+
   "window.commandCenter": true,
   "window.title": "${dirty}${activeEditorShort}${separator}${rootName}",
   "window.titleBarStyle": "custom",
+
   "workbench.colorTheme": "GitHub Dark Default",
   "workbench.editor.closeEmptyGroups": false,
   "workbench.editor.enablePreview": false,
   "workbench.editor.wrapTabs": true,
   "workbench.iconTheme": "material-icon-theme",
   "workbench.productIconTheme": "material-product-icons",
-  "workbench.startupEditor": "welcomePageInEmptyWorkbench",
   "workbench.tree.indent": 20,
-  "workbench.tree.renderIndentGuides": "always"
+  "workbench.tree.renderIndentGuides": "always",
+
+  "github.copilot.nextEditSuggestions.enabled": true,
 }
