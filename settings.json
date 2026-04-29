@@ -62,11 +62,9 @@
       "source.organizeImports.ruff": "explicit",
     },
   },
-
   "emmet.includeLanguages": {
     "django-html": "html",
   },
-
   "breadcrumbs.enabled": true,
   "editor.acceptSuggestionOnCommitCharacter": false,
   "editor.acceptSuggestionOnEnter": "on",
@@ -79,7 +77,7 @@
   "editor.cursorSmoothCaretAnimation": "on",
   "editor.cursorStyle": "line",
   "editor.cursorWidth": 2,
-  "editor.fontFamily": "JetBrainsMono Nerd Font, 'Courier New', monospace",
+  "editor.fontFamily": "JetBrainsMono Nerd Font",
   "editor.fontLigatures": true,
   "editor.fontSize": 13,
   "editor.fontWeight": "400",
@@ -106,11 +104,12 @@
   "editor.tabCompletion": "on",
   "editor.tabSize": 4,
   "editor.wordBasedSuggestions": "matchingDocuments",
-
   "files.autoSave": "afterDelay",
   "files.autoSaveDelay": 3000,
   "files.autoSaveWhenNoErrors": true,
-
+  "js/ts.suggest.autoImports": true,
+  "js/ts.updateImportsOnFileMove.enabled": "always",
+  "js/ts.preferences.includePackageJsonAutoImports": "auto",
   "search.exclude": {
     "**/node_modules": true,
     "**/bower_components": true,
@@ -118,9 +117,7 @@
     "**/bin": true,
     "**/obj": true,
   },
-
   "security.workspace.trust.untrustedFiles": "open",
-
   "terminal.integrated.cursorBlinking": true,
   "terminal.integrated.cursorStyle": "line",
   "terminal.integrated.fontFamily": "JetBrainsMono Nerd Font",
@@ -128,23 +125,17 @@
   "terminal.integrated.lineHeight": 1.2,
   "terminal.integrated.scrollback": 10000,
   "terminal.integrated.defaultProfile.osx": "zsh",
-
-  "typescript.preferences.includePackageJsonAutoImports": "auto",
-  "typescript.suggest.autoImports": true,
-  "typescript.updateImportsOnFileMove.enabled": "always",
-
   "window.commandCenter": true,
-  "window.title": "${dirty}${activeEditorShort}${separator}${rootName}",
+  "window.title": "${dirty},${activeEditorShort},${separator},${rootName},",
   "window.titleBarStyle": "custom",
-
   "workbench.colorTheme": "GitHub Dark Default",
-  "workbench.editor.closeEmptyGroups": false,
-  "workbench.editor.enablePreview": false,
-  "workbench.editor.wrapTabs": true,
   "workbench.iconTheme": "material-icon-theme",
   "workbench.productIconTheme": "material-product-icons",
   "workbench.tree.indent": 20,
   "workbench.tree.renderIndentGuides": "always",
-
   "github.copilot.nextEditSuggestions.enabled": true,
+  "workbench.editor.splitInGroupLayout": "vertical",
+  "workbench.editor.splitSizing": "split",
+  "workbench.editor.closeOnFileDelete": true,
+  "workbench.editor.enablePreviewFromCodeNavigation": true,
 }
