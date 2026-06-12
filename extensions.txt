@@ -3,13 +3,14 @@ code --install-extension anthropic.claude-code
 code --install-extension batisteo.vscode-django
 code --install-extension bradlc.vscode-tailwindcss
 code --install-extension charliermarsh.ruff
+code --install-extension davidanson.vscode-markdownlint
 code --install-extension dbaeumer.vscode-eslint
 code --install-extension dsznajder.es7-react-js-snippets
 code --install-extension eamodio.gitlens
+code --install-extension editorconfig.editorconfig
 code --install-extension esbenp.prettier-vscode
 code --install-extension formulahendry.auto-close-tag
 code --install-extension formulahendry.auto-rename-tag
-code --install-extension github.copilot-chat
 code --install-extension github.github-vscode-theme
 code --install-extension gruntfuggly.todo-tree
 code --install-extension jmrog.vscode-nuget-package-manager
@@ -35,5 +36,6 @@ code --install-extension pkief.material-icon-theme
 code --install-extension pkief.material-product-icons
 code --install-extension rangav.vscode-thunder-client
 code --install-extension redhat.vscode-yaml
+code --install-extension ritwickdey.liveserver
 code --install-extension usernamehw.errorlens
 code --install-extension yzhang.markdown-all-in-one
