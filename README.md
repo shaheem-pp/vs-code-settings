@@ -1,6 +1,6 @@
 Use this code to extract all the extensions
 ```
-code --list-extensions | xargs -L 1 echo code --install-extension
+code --list-extensions | xargs -L 1 echo code --install-extension | pbcopy
 ```
 
 ![](https://raw.githubusercontent.com/shaheem-pp/vs-code-settings/main/updated.png)
