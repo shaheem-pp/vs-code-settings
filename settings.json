@@ -3,6 +3,9 @@
     "editor.defaultFormatter": "ms-dotnettools.csharp",
     "editor.semanticHighlighting.enabled": true,
   },
+  "dotnet.backgroundAnalysis.analyzerDiagnosticsScope": "openFiles",
+  "dotnet.backgroundAnalysis.compilerDiagnosticsScope": "openFiles",
+  "csharp.inlayHints.parameterNames.enabled": "literals",
   "[css]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode",
   },
@@ -62,8 +65,28 @@
       "source.organizeImports.ruff": "explicit",
     },
   },
+  "python.analysis.typeCheckingMode": "basic",
+  "python.analysis.autoImportCompletions": true,
+  // ── File associations for legacy/mixed ASP.NET files ─────────────────────
+  "files.associations": {
+    "*.ascx": "html",
+    "*.aspx": "html",
+    "*.master": "html",
+    "*.cshtml": "aspnetcorerazor",
+  },
+
+  // ── Formatter for Razor Pages (.cshtml) ───────────────────────────────────
+  "[aspnetcorerazor]": {
+    "editor.defaultFormatter": "ms-dotnettools.csharp",
+    "editor.formatOnSave": true,
+  },
+
+  // ── Emmet abbreviations in template languages ─────────────────────────────
   "emmet.includeLanguages": {
     "django-html": "html",
+    "aspnetcorerazor": "html",
+    "razor": "html",
+    "html": "html",
   },
   "breadcrumbs.enabled": true,
   "editor.acceptSuggestionOnCommitCharacter": false,
@@ -84,6 +107,9 @@
   "editor.formatOnPaste": true,
   "editor.formatOnSave": true,
   "editor.formatOnType": false,
+  "editor.linkedEditing": true,
+  "editor.inlayHints.enabled": "onUnlessPressed",
+  "editor.rulers": [120],
   "editor.guides.bracketPairs": "active",
   "editor.guides.highlightActiveIndentation": true,
   "editor.guides.indentation": true,
@@ -138,4 +164,9 @@
   "workbench.editor.splitSizing": "split",
   "workbench.editor.closeOnFileDelete": true,
   "workbench.editor.enablePreviewFromCodeNavigation": true,
+  "workbench.browser.openLocalhostLinks": false,
+  "claudeCode.preferredLocation": "panel",
+  "editor.wordWrap": "on",
+  "redhat.telemetry.enabled": false,
+  "csharp.inlayHints.enableInlayHintsForTypes": true,
 }
